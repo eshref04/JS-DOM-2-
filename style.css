@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 38px;
+}
+
+#form{
+    justify-content: center;
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(41, 37, 54);
+    color: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+#form input,select{
+    margin-bottom: 20px;
+    padding: 10px;
+   
+}
+
+button{
+    padding: 8px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(41, 37, 54);
+}
+
+#employeeTable {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#employeeTable th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#employeeTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#employeeTable td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#employeeTable tbody {
+    text-align: center;
+}
+
+#employeeTable tbody td {
+    border: 1px solid #ddd;
+}

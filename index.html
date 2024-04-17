@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form id="form" action="#">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Name..." />
+
+      <label for="surname">Surname</label>
+      <input id="surname" type="text" placeholder="Surname..." />
+
+      <label for="age">Age</label>
+      <input id="age" type="number" placeholder="Age..." />
+
+      <label for="nationality ">Nationality</label>
+      <select name="nation" id="nationality">
+        <option value="Azerbaijan ">Azerbaijan</option>
+        <option value="Russia ">Russia</option>
+        <option value="Turkey ">Turkey</option>
+        <option value="Georgia ">Georgia</option>
+      </select>
+
+      <label for="position ">Position</label>
+      <select name="post" id="position">
+        <option value="front">Frontend Developer</option>
+        <option value="back">Backend Developer</option>
+      </select>
+
+      <label for="experience ">Experience</label>
+      <select name="exp" id="experience">
+        <option value="junior">Junior</option>
+        <option value="senior">Senior</option>
+        <option value="director">Director</option>
+      </select>
+
+      <button id="addEmployee">Add Employee</button>
+    </form>
+
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+                <th>Nationality</th>
+                <th>Position</th>
+                <th>Experience</th>
+            </tr>
+        </thead>
+        <tbody id="employeeList">
+            
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
